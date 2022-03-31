@@ -1,0 +1,186 @@
+body {
+  margin: 0;
+  background-color: #e9f3f7;
+}
+
+.side_bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 15%;
+  background-color: #dcebd5;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+ul li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+ul li a.active {
+  background-color: #4caf50;
+  color: white;
+}
+
+ul li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+/* index.html */
+.need_bold {
+  font-weight: bold;
+}
+
+.main_page_header_background {
+  position: static;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 15%;
+  font-size: 160%;
+  background-color: #aec6cf;
+  padding: 1px 0px;
+}
+
+.main_page_img_section {
+  margin-left: 33%;
+  margin-right: 35%;
+  padding: 10px 0px;
+  text-decoration: underline;
+}
+
+.main_page_img {
+  margin-left: 33%;
+  margin-right: 25%;
+  text-align: left;
+  display: block;
+  padding: 20px 0px 30px 0px;
+}
+
+.embed_video {
+  display: block;
+  margin-left: 33%;
+  margin-right: 25%;
+  text-align: left;
+  padding: 20px 0px 30px 0px;
+}
+
+.main_page_img_2 {
+  margin-left: 33%;
+  margin-right: 25%;
+  display: block;
+  padding: 20px 0px 30px 0px;
+}
+
+/* page2.html */
+.page_2_txt_section {
+  margin-left: 20%;
+  margin-right: 5%;
+  padding: 20px 0px 30px 0px;
+  text-align: justify;
+}
+
+table {
+  font-family: "Times New Roman", Times, serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #000;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #c5d5de;
+}
+
+/* page3.html */
+.page_3_txt_section {
+  margin-left: 33%;
+  margin-right: 25%;
+  padding: 5px 0px;
+  text-align: left;
+}
+
+.page_3_txt_section_large {
+  margin-left: 25%;
+  margin-right: 25%;
+  padding: 5px 0px;
+  text-align: left;
+  font-size: 18px;
+}
+
+.page_3_txt_section_indented {
+  margin-left: 33%;
+  margin-right: 20%;
+  padding: 0px 0px;
+  text-align: left;
+}
+
+.page_3_txt_section_indented li {
+  margin-left: 5%;
+  margin-right: 0%;
+  padding: 0px 0px;
+  text-align: left;
+}
+
+.main_page_sub_header_background {
+  position: static;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 15%;
+  font-size: 120%;
+  background-color: #aec6cf;
+  padding: 1px 0px;
+}
+
+/* page4.html */
+.page_4_txt_section {
+  margin-left: 33%;
+  margin-right: 25%;
+  padding: 5px 0px;
+  text-align: left;
+}
+
+.page_4_txt_section_indented {
+  margin-left: 33%;
+  margin-right: 25%;
+  padding: 0px 0px;
+  text-align: left;
+}
+
+.page_4_txt_section_indented li {
+  margin-left: 5%;
+  margin-right: 25%;
+  padding: 0px 0px;
+  text-align: left;
+}
+
+/* page5.html */
+.page_5_txt_section {
+  margin-left: 33%;
+  margin-right: 25%;
+  padding: 5px 0px;
+  text-align: left;
+}
+
+.page_5_txt_section_indented {
+  margin-left: 33%;
+  margin-right: 25%;
+  padding: 0px 0px;
+  text-align: left;
+}
+
+.page_5_txt_section_indented p {
+  margin-left: 5%;
+  margin-right: 25%;
+  padding: 0px 0px;
+  text-align: left;
+}
